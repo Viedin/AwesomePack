@@ -1,0 +1,2 @@
+# AwesomePack
+Awesome minecraft pack
