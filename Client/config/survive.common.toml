@@ -138,7 +138,7 @@
 	#-------------------------------------------
 	#Default: true
 	#-------------------------------------------
-	"Boolean: Enable Armor Weights" = true
+	"Boolean: Enable Armor Weights" = false
 	#
 	############################################
 	#Disabling this will disable this mods stamina system and energy management system
