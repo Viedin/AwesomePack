@@ -34,7 +34,7 @@
 	#Leave empty to apply them all and REVERSE to reverse all flags. Some flags do nothing for certain mobs!
 	#example: minecraft:sheep|REVERSE|ATTRIBUTES will add sheep to attributes modification (since default is a blacklist)
 	#or minecraft:sheep|ATTRIBUTES will add sheep to everything except attributes
-	"More Entities" = ["betteranimalsplus:turkey", "betteranimalsplus:deer", "betteranimalsplus:octopus", "betteranimalsplus:goose", "minecraft:hoglin", "minecraft:strider", "minecraft:trader_llama", "minecraft:parrot", "quark:crab", "betteranimalsplus:feralwolf", "minecraft:horse", "minecraft:polar_bear", "minecraft:bat", "minecraft:wandering_trader", "betteranimalsplus:bobbit_worm", "betteranimalsplus:piranha", "minecraft:llama", "minecraft:pig", "betteranimalsplus:crab", "betteranimalsplus:horseshoecrab", "minecraft:iron_golem", "minecraft:turtle", "minecraft:sheep", "betteranimalsplus:butterfly", "minecraft:ender_dragon", "betteranimalsplus:barracuda", "betteranimalsplus:nautilus", "minecraft:dolphin", "quark:foxhound", "betteranimalsplus:flying_fish", "betteranimalsplus:brownbear", "betteranimalsplus:coyote", "betteranimalsplus:squirrel", "minecraft:cod", "quark:leash_knot_fake", "betteranimalsplus:squid_giant", "betteranimalsplus:dragonfly", "minecraft:donkey", "additionalenderitems:ender_phantom", "betteranimalsplus:eel_freshwater", "minecraft:squid", "betteranimalsplus:songbird", "minecraft:mule", "minecraft:skeleton_horse", "betteranimalsplus:walrus", "betteranimalsplus:pheasant", "betteranimalsplus:boar", "quark:stoneling", "minecraft:cow", "minecraft:zombie_horse", "betteranimalsplus:blackbear", "minecraft:bee", "betteranimalsplus:jellyfish", "minecraft:cat", "minecraft:pufferfish", "quark:toretoise", "betteranimalsplus:moose", "betteranimalsplus:badger", "minecraft:salmon", "minecraft:fox", "betteranimalsplus:lammergeier", "quark:frog", "minecraft:tropical_fish", "minecraft:snow_golem", "minecraft:mooshroom", "betteranimalsplus:goat", "minecraft:villager", "minecraft:ocelot", "minecraft:chicken", "betteranimalsplus:squid_colossal", "minecraft:wolf", "betteranimalsplus:reindeer", "betteranimalsplus:lamprey", "minecraft:panda", "betteranimalsplus:whale", "betteranimalsplus:eel_saltwater", "minecraft:rabbit", "artifacts:mimic", "betteranimalsplus:shark"]
+	"More Entities" = ["UNINITIALIZED"]
 	#Treat LADDER flags as whitelist
 	"Ladder Whitelist" = false
 	#Treat USEITEM flags as whitelist
@@ -139,30 +139,30 @@
 [attributes]
 	#Maximum increase in magic resistance. Magic reduction is percentage
 	#Range: 0.0 ~ 1.0
-	"Max Magic Resistance" = 0.4
+	"Max Magic Resistance" = 0.0
 	#Maximum increase in knockback
-	"Max Knockback" = 0.5
+	"Max Knockback" = 0.0
 	#Magic resistance will be increased by difficulty*0.0016*x. Set to 0 to disable
-	"Magic Resistance Increase" = 1.0
+	"Magic Resistance Increase" = 0.0
 	#Speed will be increased by difficulty*0.0008*x. Set to 0 to disable
-	"Speed Increase" = 1.0
+	"Speed Increase" = 0.0
 	#Damage will be multiplied by difficulty*0.008*x. Set to 0 to disable
-	"Damage Increase Multiplier" = 1.0
+	"Damage Increase Multiplier" = 0.0
 	#Projectile damage will be multiplied by maximum of this
-	"Max Projectile Damage" = 2.0
+	"Max Projectile Damage" = 0.0
 	#Round health to the nearest x. Set to 0 to disable
-	"Round HP" = 0.5
+	"Round HP" = 0.0
 	#Projectile Damage will be multiplied by 1+difficulty*0.008*x. Set to 0 to disable
-	"Projectile Damage Increase" = 1.0
+	"Projectile Damage Increase" = 0.0
 	#Health will be multiplied by difficulty*0.016*x. Set to 0 to disable
-	"Health Increase Multiplier" = 1.0
+	"Health Increase Multiplier" = 0.0
 	#Damage will be multiplied by at maximum this. Set to 0 means no limit
-	"Max Damage Increase" = 3.0
+	"Max Damage Increase" = 0.0
 	#Health will be multiplied by at maximum this. Set to 0 means no limit
-	"Max Health Increase" = 5.0
+	"Max Health Increase" = 0.0
 	#Knockback will be increased by difficulty*0.002*x. Set to 0 to disable
-	"Knockback Increase" = 1.0
+	"Knockback Increase" = 0.0
 	#Maximum increase in speed
 	#Range: 0.0 ~ 1.0
-	"Max Speed" = 0.1
+	"Max Speed" = 0.0
 
